@@ -21,5 +21,22 @@ public class Main {
        r1 = (-b + Math.sqrt(e)) / (2 * a);
        r2 =  (-b - Math.sqrt(e)) / (2 * a);
        System.out.println(r1 == 1 && r2 == -4 ? "测试通过" : "测试失败");
+
+       String s = """
+           SELECT * FROM
+             users
+           WHERE id > 100
+           ORDER BY name DESC""";
+       System.out.println("s = " + s);
+
+       String s1 = "Hello";
+       String t = s1;
+       s = "World";
+       System.out.println("s = " + s);
+
+       int a1 = 72;
+       int b1 = 65281;
+       System.out.println("" + a1 + b1);
+
     }
 }
