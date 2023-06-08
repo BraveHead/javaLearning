@@ -20,6 +20,7 @@ public class If {
              System.out.print("肥胖：28-32, 当前为:" + BMI);
              return;
          }
+
          System.out.print("非常肥胖：高于32, 当前为:" + BMI);
      }
 }
